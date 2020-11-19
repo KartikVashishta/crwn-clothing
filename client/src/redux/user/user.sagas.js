@@ -102,8 +102,8 @@ export function* onSignUpStart () {
 	yield takeLatest(UserActionTypes.SIGN_UP_START, signUp);
 }
 
-export function* onSignUpSuccess() {
-  yield takeLatest(UserActionTypes.SIGN_IN_SUCCESS, signInAfterSignUp)
+export function* onSignUpSuccess () {
+  yield takeLatest(UserActionTypes.SIGN_UP_SUCCESS, signInAfterSignUp);
 }
 
 export function* userSagas () {
@@ -112,7 +112,7 @@ export function* userSagas () {
 		call(onEmailSignInStart),
 		call(onCheckUserSession),
 		call(onSignOutStart),
-    call(onSignUpStart),
-    call(onSignUpSuccess)
+		call(onSignUpStart),
+		call(onSignUpSuccess),
 	]);
 }
