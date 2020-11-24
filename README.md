@@ -52,15 +52,20 @@ An ecommerce website built with React and Redux Sagas, the *progressive web-app*
 
 ## :sparkles: Features ##
 
-  
 
 :heavy_check_mark: Uses Latest React Technologies
+
 :heavy_check_mark: Redux-Saga for State management
+
 :heavy_check_mark: Redux-Thunk for handling Asynchronous side-effects;
+
 :heavy_check_mark: Firebase and Firestore for Database and Authenication
-:heavy_check_mark:  Stripe Payment
-:heavy_check_mark:  CORS Enable
-:heavy_check_mark:    Serve files with Gzip Compression
+
+:heavy_check_mark: Stripe Payment
+
+:heavy_check_mark: CORS Enable
+
+:heavy_check_mark: Serve files with Gzip Compression
  
 And the list goes on!
 ## :rocket: Technologies ##
