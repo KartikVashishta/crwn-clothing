@@ -7,7 +7,7 @@
 <div align="center"> <text>Check my website out at:</test>
 <a href="https://crwn-react-liveapp.herokuapp.com/">Crwn-clothing</a>
 </div>
-<div/>
+</div>
 
 <p align="center">
 &#xa0;
